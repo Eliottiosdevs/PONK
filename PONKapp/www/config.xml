@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="EAPPS" version="1.1.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="EAPPS" version="1.1.2">
 
 	<name>PONK</name>
 	<description>PONK APP by Xpandity</description>
 	<author email=""></author>
 
-    <icon gap:platform="ios" height="57" src="iosicon-57.png" width="57" />
-    <icon gap:platform="ios" height="72" src="iosicon-72.png" width="72" />
-    <icon gap:platform="ios" height="114" src="iosicon-114.png" width="114" />
-    <icon gap:platform="ios" height="144" src="iosicon-144.png" width="144" />
-	
     <icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
