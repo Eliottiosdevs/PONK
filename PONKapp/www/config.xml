@@ -4,9 +4,13 @@
 	<name>PONK</name>
 	<description>PONK APP by Xpandity</description>
 	<author email=""></author>
+<icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
+<icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
+<icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
+<icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
 
-	<icon src="icon-128.png" width="128" height="128" />
-	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+	<!--<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />-->
 
 	<preference name="permissions" value="none"/>
 	<preference name="android-targetSdkVersion" value="21" />
