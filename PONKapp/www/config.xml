@@ -1,11 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="EAPPS" version="1.0.1">
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="EAPPS" version="1.1.0">
 
 	<name>PONK</name>
 	<description>PONK APP by Xpandity</description>
 	<author email=""></author>
 
-	<icon src="icon-128.png" width="128" height="128" />
+    <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
+	
+    <icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
 	<preference name="permissions" value="none"/>
@@ -19,7 +24,7 @@
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
 	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="14" />
+	<preference name="android-minSdkVersion" value="1" />
 	<preference name="target-device" value="universal" />
 
 	<feature name="CDVWKWebViewEngine">
