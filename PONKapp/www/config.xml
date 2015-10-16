@@ -17,7 +17,7 @@
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
-    <gap:plugin name="org.apache.cordova.plugin.Chromecast" />
+    <gap:plugin name="org.apache.cordova.plugin.chromecast.Chromecast" />
     
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="1" />
