@@ -1,13 +1,10 @@
 {
-    "cordova-plugin-customurlscheme": {
+    "cordova-plugin-battery-status": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/EddyVerbruggen/LaunchMyApp-PhoneGap-Plugin.git",
-            "subdir": "."
+            "type": "registry",
+            "id": "cordova-plugin-battery-status"
         },
         "is_top_level": true,
-        "variables": {
-            "URL_SCHEME": "PONK"
-        }
+        "variables": {}
     }
 }
