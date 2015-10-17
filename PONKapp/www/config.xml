@@ -13,6 +13,10 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
+	    <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.2.0">
+    <param name="com.eliott.PONK" value="ponk" />
+</gap:plugin>
+
 	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
