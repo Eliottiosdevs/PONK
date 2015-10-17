@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="korzen" version="1.0.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.eliott.PONK" version="1.2.6">
 
 	<name>PONK</name>
-	<description>e</description>
-	<author email="e">e</author>
+	<description>Ponk Game by Xpandity</description>
+	<author email=""></author>
 
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
@@ -27,6 +27,10 @@
 	</feature>
 
 	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+
+    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+        <param name="com.eliott.PONK" value="ponk" />
+    </gap:plugin>
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
